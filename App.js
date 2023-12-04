@@ -25,7 +25,7 @@ app.use(express.json()); // Ensure this is before your routes
  
 // Import routes
 const userRoutes = require('./src/routes/Userroute');
-app.use('/api/users', userRoutes);
+app.use('/api/user', userRoutes);
 
 const adminRoutes = require('./src/routes/Adminroute');
 app.use('/api/admin', adminRoutes);
